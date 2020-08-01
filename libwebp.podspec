@@ -7,7 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Library to encode and decode images in WebP format.'
   spec.source       = { :git => 'https://github.com/webmproject/libwebp.git', :tag => 'v1.1.0' }
   spec.source_files = 'src/mux/*.{h,c}', 'src/webp/mux.h'
-  spec.framework    = 'SystemConfiguration'
   spec.swift_version = '5.0'
   spec.license = 'BSD'
   spec.requires_arc = false
